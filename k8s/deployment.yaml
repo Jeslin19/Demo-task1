@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: demo-task1
-          image: dockerimage12.azurecr.io/demo-task1:latest
+          image: dockerimage12.azurecr.io/dockerimage:v1
           ports:
             - containerPort: 80
